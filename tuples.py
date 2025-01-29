@@ -18,3 +18,13 @@ t1 = (1,2,3)
 t2 = (4,5,6)
 t3 = t1+t2
 print(t3) #(1, 2, 3, 4, 5, 6)
+
+# Create a Singleton Tuple:
+tup = (10,) # we have give ',' tup with string with out comma <class 'int'>
+print(tup,type(tup)) #<class 'tuple'>
+
+new_tup = (10,20,30,40)
+# ele1 = new_tup[0] instead of this way
+ele1,ele2,ele3,ele4 = new_tup
+print(f"Value of ele1",ele1)
+
